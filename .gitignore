@@ -31,3 +31,4 @@ out/
 将删除 DatabaseEncapsulation.iml
 将删除 src/
 将删除 bin/
+将删除 .gitignore
