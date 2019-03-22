@@ -14,6 +14,6 @@ public class BasedValue {
     public static final String MONGODB_HOST ="mongodb://"+MONGODB_IP+MONGODB_PORT ;
     public static final String MONGODB_LOGIN_NAME ="27017" ;
     public static final String MONGODB_LOGIN_PASS ="27017" ;
-    public static final String MONGODB_DATABASE_NAME ="27017" ;
+    public static final String MONGODB_DATABASE_NAME ="testdb" ;
 
 }
