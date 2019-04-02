@@ -15,13 +15,19 @@ import java.util.regex.Pattern;
 
 public class Utils {
 
-
     public static void printE(Exception e){
         System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+    }
+    public static void printE(String s){
+        System.err.println(s);
     }
 
     public static void p(Object obj){
         System.out.print(obj);
+    }
+
+    public static void pln(Object obj){
+        System.out.println(obj);
     }
 
 

@@ -17,9 +17,15 @@ public class MyList implements Map<String ,Object> {
         updateAsMap =new LinkedHashMap() ;
     }
 
-    public MyList append(String keyName , Object o , Object b){
-        updateAsMap.put(keyName ,o);
-        updateAsMap.put(keyName+"2" ,b);
+    /**
+     *
+     * @param keyName keyname
+     * @param convertValue originalValue
+     * @param convertValue convertValue
+     * */
+    public MyList append(String keyName , Object originalValue , Object convertValue){
+        updateAsMap.put(keyName ,originalValue);
+        updateAsMap.put(keyName+"2" ,convertValue);
         return this;
     }
 
